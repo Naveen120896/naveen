@@ -12,7 +12,7 @@ class GildedRose {
     public GildedRose(Item[] items) {
         this.items = items;
     }
-
+    
     private ItemType getItemType(Item item) {
         switch (item.name) {
             case "Aged Brie":
